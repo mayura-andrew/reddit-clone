@@ -16,9 +16,10 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+        "react": [ "./node_modules/@types/react" ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Layout/Layout.tsx", "src/components/Modal/Auth/Login.tsx"],
   "exclude": ["node_modules"]
 }
