@@ -9,7 +9,7 @@ const Communites: React.FC<CommunitesProps> = () => {
     const [open, setOpen] = useState(false);
     return (
         <>
-        <CreateCommunityModal open={open} handleClose={() => setOpen(false)} />
+        <CreateCommunityModal open={open} handleClose={() => setOpen(false)} userId={""} />
         <MenuItem 
         width="100%"
         fontSize="10pt"
